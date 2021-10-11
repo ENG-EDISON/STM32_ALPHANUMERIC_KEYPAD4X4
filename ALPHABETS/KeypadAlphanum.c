@@ -15,7 +15,7 @@ Description:		      This is an STM32 device driver library for the Keypad4X4 alp
 */
 
 
-#include "KeypadAphanum.h"
+#include "KeypadAlphanum.h"
 #include "main.h"
 #include "stm32f4xx_hal_tim.h"
 #include "STM_MY_LCD16X2.h"
@@ -311,7 +311,7 @@ char Get_Alpha(void)
                 {
                     key='R';
                 }
-                else if(tick1[5]==3)
+                else if(tick1[9]==3)
                 {
                     key='6';
                 }
